@@ -1,0 +1,25 @@
+SSL Server Certificate
+Issued To
+
+Common Name (CN)	www.personas.santanderrio.com.ar
+Organization (O)	Grupo Santander (Banco Santander, S.A.)
+Organizational Unit (OU)	Grupo Santander
+Serial Number	54:CC:38:F3
+Issued By
+
+Common Name (CN)	Entrust Certification Authority - L1M
+Organization (O)	Entrust, Inc.
+Organizational Unit (OU)	See www.entrust.net/legal-terms
+Validity Period
+
+Issued On	Tuesday, September 1, 2015 at 5:53:17 AM
+Expires On	Thursday, September 29, 2016 at 3:50:56 PM
+Fingerprints
+
+SHA-256 Fingerprint	C3 5A 30 8B 76 35 3E 10 0B 61 F0 27 A7 4C 19 77
+F1 D9 73 1E AA 28 3E FD CC AC A0 50 23 43 5E E9
+SHA-1 Fingerprint	B0 1E 17 D0 81 E3 41 83 B5 EF 90 F8 39 03 5E 1D
+02 1B 73 22
+
+
+openssl s_client -connect {www.personas.santanderrio.com.ar/hb/html/login/principal.jsp?rndPrm646=1467453251587}:{443} -showcerts

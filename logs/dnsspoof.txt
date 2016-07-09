@@ -1,0 +1,1 @@
+dnsspoof: listening on eth1 [udp dst port 53 and not src 192.168.0.108]
