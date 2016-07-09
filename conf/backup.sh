@@ -15,7 +15,7 @@ echo "######### Date: $Date #########"
 echo "####################################"
 
 mkdir /vagrant/conf/backup
-tar -zcvf $Date.tar.gz /vagrant/
+tar -zcvf /vagrant/conf/backup/$Date.tar.gz /vagrant/
 mcrypt /vagrant/conf/backup/$Date.tar.gz -k abc123 # ENCRYPT
-rm /vagrant/conf/backup$Date.tar.gz
+rm /vagrant/conf/backup/$Date.tar.gz
 mcrypt -k abc123 -d /vagrant/conf/backup/$Date.tar.gz.nc # DECRYPT

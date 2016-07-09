@@ -66,6 +66,7 @@ def kali():
 
         sudo('apt-get -y update')
         sudo('apt-get -y install inetutils-traceroute traceroute dnstop tcpdump nmap vim python-pip python-dev libevent-dev')
+        sudo('apt-get -y install mcrypt')
         sudo('apt-get -y install apache2 dsniff mcrypt mail mailutils cron')
 
         sudo('pip install fabric netifaces python-nmap iptools fexpect')        
