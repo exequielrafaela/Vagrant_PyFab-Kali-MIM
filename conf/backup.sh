@@ -18,4 +18,4 @@ mkdir /vagrant/conf/backup
 tar -zcvf /vagrant/conf/backup/$Date.tar.gz /vagrant/
 mcrypt /vagrant/conf/backup/$Date.tar.gz -k abc123 # ENCRYPT
 rm /vagrant/conf/backup/$Date.tar.gz
-mcrypt -k abc123 -d /vagrant/conf/backup/$Date.tar.gz.nc # DECRYPT
+#mcrypt -k abc123 -d /vagrant/conf/backup/$Date.tar.gz.nc # DECRYPT
